@@ -1,10 +1,6 @@
 # react-native-fixture
 Fixture of ISL season 2018 app 
 
-React-Native-Template
-================================================
-The goal of this project is to work as template for react-native applications, providing a base project structure, core dependencies and boilerplate to jumpstart development.
-
 ## Prerequisites
 - Node > 7 and npm (Recommended: Use [nvm](https://github.com/creationix/nvm))
 - Watchman `brew install watchman`
