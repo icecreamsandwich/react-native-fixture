@@ -1,0 +1,3 @@
+rootProject.name = 'ISL_fixture'
+
+include ':app'
