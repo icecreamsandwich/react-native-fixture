@@ -9,6 +9,18 @@ Fixture of ISL season 2018 app
 - [JDK > 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 - [Android Studio and Android SDK](https://developer.android.com/studio/index.html)
 
+## Usage
+
+### Option #1: Using React-Native-CLi
+
+Install the react-native-cli tool : `npm install -g react-native-cli`
+
+Create the react native skeleton application : `react-native myProject`
+
+After that you should proceed as with any javascript project:
+- Go to your project's root folder `cd myProject` and run `npm install`.
+- Run the server using `react-native start`
+- Run `react-native run-ios` or `react-native run-android` to start your application!
 
 ## Base dependencies
   - [axios](https://github.com/axios/axios) for networking.
@@ -22,16 +34,3 @@ Fixture of ISL season 2018 app
   - [Redux-Thunk](https://github.com/gaearon/redux-thunk) to dispatch asynchronous actions.
   - [Reselect](https://github.com/reactjs/reselect) the selector library for redux.
   - [Jest](https://facebook.github.io/jest/) and [Enzyme](https://github.com/airbnb/enzyme) for testing.
-
-## Usage
-
-### Option #1: Using React-Native-Rename
-
-Install the react-native-cli tool : `npm install -g react-native-cli`
-
-Create the react native skeleton application : `react-native myProject`
-
-After that you should proceed as with any javascript project:
-- Go to your project's root folder `cd myProject` and run `npm install`.
-- Run the server using `react-native start`
-- Run `react-native run-ios` or `react-native run-android` to start your application!
