@@ -32,10 +32,11 @@ export default class ScheduleView extends React.Component {
 
   setBgColor(){
     var colors = Array("red","blue","green","yellow","magenta","blue");
-    var bgColor = items[Math.floor(Math.random()*items.length)];
+    var bgColor = colors[Math.floor(Math.random()*colors.length)];
+
     return {
       borderRadius: 12,
-      background: bgColor,
+      backgroundColor: "magenta", //bgColor
     }
   }
 
@@ -58,7 +59,6 @@ export default class ScheduleView extends React.Component {
     }
 
     return (
-      <View style={styles.container}>
         <ScrollView style={styles.container} contentContainerStyle={styles.contentContainer}>
           <View style={styles.getStartedContainer}>
             <Text style={styles.getStartedText}> All Match details given below </Text>
@@ -73,7 +73,6 @@ export default class ScheduleView extends React.Component {
             );
           }, this)}
         </ScrollView>
-      </View>
       );
     }
   }

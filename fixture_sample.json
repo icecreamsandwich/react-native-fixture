@@ -33,5 +33,36 @@
     "Team_2": "FC Pune City",
     "date": "October 3 ,2018",
     "venue": "Jawaharlal Nehru Stadium, New Delhi"
+ },{
+    "id" :6 ,
+    "Team_1": "ATK",
+    "Team_2": "NEUFC",
+    "date": "October 4 ,2018",
+    "venue": "Salt Lake Stadium, Kolkata"
+ },{
+    "id" :7,
+    "Team_1": "Kerala Blasters",
+    "Team_2": "Mumbai City FC",
+    "date": "October 5 ,2018",
+    "venue": "Jawaharlal Nehru Stadium, Kochi."
+ },{
+    "id" :8,
+    "Team_1": "Chennaiyin FC",
+    "Team_2": "FC Goa",
+    "date": "October 6 ,2018",
+    "venue": "Jawaharlal Nehru Stadium, Chennai."
+ },{
+    "id" :9 ,
+    "Team_1": "Bengaluru FC",
+    "Team_2": "Jamshedpur FC",
+    "date": "October 7 ,2018",
+    "venue": "Sree Kanteerava Stadium, Bengaluru."
+ },
+ {
+    "id" :10 ,
+    "Team_1": " Delhi Dynamos",
+    "Team_2": "ATK",
+    "date": "October 17 ,2018",
+    "venue": "Jawaharlal Nehru Stadium, New Delhi."
  }
 ]
