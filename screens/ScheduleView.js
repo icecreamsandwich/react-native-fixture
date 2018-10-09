@@ -5,10 +5,9 @@ import {
   ScrollView,
   StyleSheet,
   Text,
-  TouchableOpacity,
   View,
   Linking,
-  TouchableHighlight,
+  TouchableOpacity,
   ActivityIndicator
 } from 'react-native';
 
@@ -18,19 +17,25 @@ export default class ScheduleView extends React.Component {
       super(props);
       this.state ={ isLoading: true};
       dataSource = [];
+     this.showDetails = this.showDetails.bind(this);
     }
 
   componentDidMount(){
-    var customData = require('./fixture_sample.json');
+    var customData = require('../fixture_sample.json');
        this.setState({
          isLoading: false,
+         showView : false,
          dataSource: customData,
-       }, function(){
-
        });
      }
 
-  }
+  showDetails(i){
+        alert("id of the TouchableHighlight :" + i)
+        this.setState({
+          showView: true,
+        });
+     }
+
   render() {
     /* Go ahead and delete ExpoConfigView and replace it with your
      * content, we just wanted to give you a quick view of your config */
@@ -50,14 +55,11 @@ export default class ScheduleView extends React.Component {
           </View>
           {this.state.dataSource.map(function(teams, i) {
             return (
-              <TouchableHighlight style={styles.buttonGmail} onPress={()=> } underlayColor="#999" key={i}>
-                    <Text style={styles.buttonText}>{teams.Team1} Vs {teams.Team2} </Text>
-              </TouchableHighlight>
-
-              <View style={styles.welcomeContainer}>
-               <Text>{teams.date}
-               {teams.venue}</Text>
-              </View>
+              <TouchableOpacity style={styles.buttonGmail} onPress={()=>this.showDetails(i) } underlayColor="#999" key={i}>
+                    <Text style={styles.buttonText}>{teams.Team_1}Vs{teams.Team_2}</Text>
+                    <Text>{teams.date}
+                    {teams.venue}</Text>
+              </TouchableOpacity>
             );
           }, this)}
         </ScrollView>

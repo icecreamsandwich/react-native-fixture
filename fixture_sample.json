@@ -1,36 +1,36 @@
 [
  {
     "id" :1 ,
-    "Team 1": "ATK",
-    "Team 2": "Kerala Blasters",
+    "Team_1": "ATK",
+    "Team_2": "Kerala Blasters",
     "date": "September 29 ,2018",
     "venue": "Salt Lake Stadium, Kolkata"
   },
  {
     "id" :2 ,
-    "Team 1": "Bengaluru ",
-    "Team 2": "Chennaiyin",
+    "Team_1": "Bengaluru",
+    "Team_2": "Chennaiyin",
     "date": "September 30 ,2018",
     "venue": "Sree Kanteerava Stadium, Bengaluru"
  },
   {
     "id" :3 ,
-    "Team 1": "NorthEast United (NEUFC) ",
-    "Team 2": "FC Goa",
+    "Team_1": "NorthEast United (NEUFC)",
+    "Team_2": "FC Goa",
     "date": "October 1 ,2018",
     "venue": "Indira Gandhi Athletic Stadium, Guwahati"
  },
   {
     "id" :4 ,
-    "Team 1": "Mumbai City",
-    "Team 2": "Jamshedpur FC",
+    "Team_1": "Mumbai City",
+    "Team_2": "Jamshedpur FC",
     "date": "October 2 ,2018",
     "venue": "Mumbai Football Arena, Mumbai"
  },
   {
     "id" :5 ,
-    "Team 1": "Delhi Dynamos",
-    "Team 2": "FC Pune City",
+    "Team_1": "Delhi Dynamos",
+    "Team_2": "FC Pune City",
     "date": "October 3 ,2018",
     "venue": "Jawaharlal Nehru Stadium, New Delhi"
  }
