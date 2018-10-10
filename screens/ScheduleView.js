@@ -36,12 +36,11 @@ export default class ScheduleView extends React.Component {
 
     return {
       borderRadius: 12,
-      backgroundColor: "magenta", //bgColor
+      backgroundColor: "#FFEC68", //bgColor
     }
   }
 
   showDetails(i){
-    //  alert("id of the TouchableHighlight :" + i)
     this.setState({
       showView: true,
     });
@@ -67,7 +66,7 @@ export default class ScheduleView extends React.Component {
             return (
               <TouchableOpacity style={[styles.buttonGmail, this.setBgColor()]} onPress={()=>this.showDetails(i) } underlayColor="#999" key={i}>
                 <Text style={styles.buttonText}>{teams.Team_1} Vs {teams.Team_2}</Text>
-                <Text>{teams.date}
+                <Text>{teams.date} {" "} 
                   {teams.venue}</Text>
               </TouchableOpacity>
             );
